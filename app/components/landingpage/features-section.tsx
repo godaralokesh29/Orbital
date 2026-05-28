@@ -32,7 +32,7 @@ export default function FeaturesSectionDemo({id}:FeatureProp) {
         className: "border-b col-span-1 lg:col-span-2 dark:border-neutral-800",
       },
       {
-        title: "DevMux Explained",
+        title: "Orbital Explained",
         description: "A comprehensive platform that revolutionizes team collaboration, project management, and deployment workflows.",
         skeleton: <SkeletonThree />,
         className: "border-b col-span-1 lg:col-span-3 lg:border-r dark:border-neutral-800",
@@ -45,7 +45,7 @@ export default function FeaturesSectionDemo({id}:FeatureProp) {
       },
       {
         title: "It takes just one click",
-        description: "Experience Devmux in just one click",
+        description: "Experience Orbital in just one click",
         skeleton: <SkeletonFive />,
         className: "border-b col-span-1 lg:col-span-2 lg:border-r dark:border-neutral-800",
       },
@@ -63,7 +63,7 @@ export default function FeaturesSectionDemo({id}:FeatureProp) {
        <MatrixGridBackground className="min-h-screen p-24">
       <div className="text-center px-4 sm:px-0 max-w-7xl mx-auto">
             <h1 className="text-3xl sm:text-4xl font-semibold text-black dark:text-white">
-              What Exactly is DevMux ?
+              What Exactly is Orbital ?
             </h1>
             <h2 className="text-4xl sm:text-5xl md:text-[4rem] lg:text-[6rem] font-bold mt-4 leading-tight mb-4">
               <span className="bg-cosmic-drift bg-clip-text text-transparent">

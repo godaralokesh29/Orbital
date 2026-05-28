@@ -41,13 +41,13 @@ export function Navbar() {
           >
         <div className="flex items-center gap-2">
           <Image
-            src="/devmux.svg"
-            alt="DevMux Logo"
+            src="/orbital.svg"
+            alt="Orbital Logo"
             width={44}
             height={44}
             className="rounded-lg"
           />
-          <span className="text-lg font-semibold">DevMux</span>
+          <span className="text-lg font-semibold">Orbital</span>
         </div>
         </a>
         <div className="flex items-center gap-4">

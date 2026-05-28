@@ -5,7 +5,7 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { materialDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
 
 // Initialize the Google AI client
-const genAI = new GoogleGenerativeAI("AIzaSyCNjcppkOu8IYk5OzoEuEeDNvpuhoa1gA8");
+const genAI = new GoogleGenerativeAI(process.env.NEXT_PUBLIC_GOOGLE_GEMINI_API_KEY!);
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 interface Message {

@@ -16,9 +16,9 @@ export async function GET(req: NextRequest) {
     );
   }
 
-  const apiKey = "APIaMz2VKrmZgqW";
-  const apiSecret = "FwTe3T1huedW2AeV08ODXlu9uD1u9evrQA29ebQ5d1UE";
-  const wsUrl = "wss://devmux-l0abrbfe.livekit.cloud";
+  const apiKey = process.env.LIVEKIT_API_KEY;
+  const apiSecret = process.env.LIVEKIT_API_SECRET;
+  const wsUrl = process.env.NEXT_PUBLIC_LIVEKIT_URL;
 
   if (!apiKey || !apiSecret || !wsUrl) {
     return NextResponse.json(

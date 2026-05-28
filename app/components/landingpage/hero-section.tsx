@@ -95,7 +95,7 @@ export function HeroSection({id}:HeroPropinterface) {
             className="text-5xl md:text-7xl font-bold tracking-tight mb-4 leading-tight"
           >
             <span className="bg-cosmic-drift bg-clip-text text-7xl md:text-9xl text-transparent">
-              DevMux
+              Orbital
             </span>
           </motion.h1>
 

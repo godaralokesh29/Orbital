@@ -54,7 +54,7 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           {/* Company Info */}
           <div className="space-y-4 md:col-span-2">
-            <h3 className="text-lg font-semibold">About DevMux</h3>
+            <h3 className="text-lg font-semibold">About Orbital</h3>
             <p className="text-muted-foreground">
               Empowering developers with cutting-edge tools and solutions to build better software, faster.
             </p>
@@ -63,7 +63,7 @@ export function Footer() {
                 { Icon: Twitter, href: "https://twitter.com/Ekas_7", label: "Twitter" },
                 { Icon: Github, href: "https://github.com/Ekas_7", label: "GitHub" },
                 { Icon: MessageCircle, href: "https://discord.gg/Ekas_7", label: "Discord" },
-                { Icon: Mail, href: "mailto:ekas@devmux.com", label: "Email" }
+                { Icon: Mail, href: "mailto:ekas@orbital.com", label: "Email" }
               ].map(({ Icon, href, label }) => (
                 <Link
                   key={label}
@@ -115,7 +115,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t">
           <p className="text-sm text-muted-foreground mb-4 md:mb-0">
-            © {new Date().getFullYear()} DevMux. All rights reserved.
+            © {new Date().getFullYear()} Orbital. All rights reserved.
           </p>
           <nav className="flex flex-wrap gap-6 text-sm text-muted-foreground">
             <Link href="/terms" className="hover:text-foreground transition-colors">

@@ -47,7 +47,7 @@ export function VideoCallSection({ roomId }: { roomId: string }) {
       video={true}
       audio={true}
       token={token}
-      serverUrl={"wss://devmux-l0abrbfe.livekit.cloud"}
+      serverUrl={process.env.NEXT_PUBLIC_LIVEKIT_URL}
       data-lk-theme="default"
       style={{ height: "80vh" }} // Make sure the room fills the entire viewport
     >

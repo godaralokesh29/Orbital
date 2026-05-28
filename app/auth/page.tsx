@@ -24,21 +24,21 @@ export default function AuthPage() {
 
   const commonButtonClasses =
     "inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-600 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 w-full";
-  const words = `Experience DevMux With  One Click`;
+  const words = `Experience Orbital With  One Click`;
   return (
     <HeroHighlight className="relative py-12 md:py-20 px-4 overflow-hidden">
       <div className="w-full max-w-sm md:max-w-md mx-auto space-y-6 p-6 md:p-8 bg-black/20 backdrop-blur-sm rounded-lg border border-gray-800 relative z-10">
         <div className="text-center">
           <div className="flex items-center justify-center gap-2 md:gap-5 mb-4 md:mb-6">
             <Image
-              src="/devmux.svg"
-              alt="DevMux Logo"
+              src="/orbital.svg"
+              alt="Orbital Logo"
               width={60}
               height={60}
               className="rounded-lg"
             />
             <h1 className="text-2xl md:text-5xl font-bold text-white">
-              DevMux
+              Orbital
             </h1>
           </div>
           <TextGenerateEffect words={words}  />

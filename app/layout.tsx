@@ -7,7 +7,7 @@ import ClientProvider from "./providers";
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "DevMux",
+  title: "Orbital",
   description:
     "AI-powered platform that seamlessly integrates system design, coding, and team communication",
 }
