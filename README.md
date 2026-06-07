@@ -238,7 +238,7 @@ This project is currently unlicensed. Feel free to fork and use for your own pur
 
 ## 👤 Author
 
-**Alokesh Godar**
+**Lokesh Godara**
 - GitHub: [@godaralokesh29](https://github.com/godaralokesh29)
 
 ## 🙋 Support
@@ -262,6 +262,6 @@ Potential future enhancements:
 
 ---
 
-**Made with ❤️ by Alokesh Godar**
+**Made with ❤️ by Lokesh Godara**
 
 Star ⭐ this repository if you find it useful!
